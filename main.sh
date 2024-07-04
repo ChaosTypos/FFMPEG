@@ -308,7 +308,7 @@ elif [ $MSG -eq 8 ]
 then
     echo -e $GREEN
     for f in *.mkv; do ffmpeg -i "$f" -c copy "${f%.mkv}.mp4"; done
-    echo -e $GREEN
+    echo -e $NC
     echo -e "${RGREEN}Conversion completed${NC}"
 else
     echo -e "${RED}Something Went Wrong${NC}"
