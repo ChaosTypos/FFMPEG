@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#Colors
+#Colors@
 RPINK='\033[1;38;5;125m'
 RBLUE='\033[1;38;5;025m'
 RB='\033[1;38;5;130m'
